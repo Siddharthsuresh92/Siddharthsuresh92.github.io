@@ -7,17 +7,13 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+lang: en-US
 title: Siddharth Suresh
 email: ss3zg@virginia.edu
 description: >- # this means to ignore newlines until "baseurl:"
@@ -28,13 +24,22 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Siddharthsuresh92
 linkedin_username: siddharthsuresh92
-
+author:
+    name: Siddharth Suresh
+    picture: /assets/images/Sid.png
 # Build settings
 # theme: minima
+markdown: kramdown
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+feed:
+  path: atom.xml
 
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

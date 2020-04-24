@@ -2,6 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+author:
+    name: John Doe
+    picture: /assets/images/Sid.png
 ---
 
 Hi! My name is Siddharth
