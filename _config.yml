@@ -59,3 +59,12 @@ paginate_path: /page:num/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+# _posts
+- scope:
+    path: "_posts"
+    type: posts
+  values:
+    layout: post
+    read_time: true
