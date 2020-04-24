@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem "minima", "~> 2.5"
+# gem "minima", "~> 2.5"
+gem "jekyll-theme-basically-basic"
 
 gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!

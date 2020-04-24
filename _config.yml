@@ -28,9 +28,9 @@ author:
     name: Siddharth Suresh
     picture: /assets/images/Sid.png
 # Build settings
-# theme: minima
+theme: jekyll-theme-basically-basic
 markdown: kramdown
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+#remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins:
   - jekyll-feed
   - jekyll-paginate
