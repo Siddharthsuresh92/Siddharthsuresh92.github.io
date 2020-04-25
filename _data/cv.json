@@ -4,8 +4,6 @@
     "label": "MS in Data Science, UVA",
     "picture": "",
     "email": "ss3zg@virginia.edu",
-    "phone": "",
-    "website": "",
     "summary": "",
     "location": {
       "postalCode": "VA 22903",
@@ -18,56 +16,99 @@
         "network": "Linkedin",
         "username": "siddharthsuresh92",
         "url": "https://linkedin.com/in/siddharthsuresh92"
+      },
+      {
+        "network": "Github",
+        "username": "Siddharthsuresh92",
+        "url": "https://github.com/Siddharthsuresh92"
       }
     ]
   },
   "work": [
     {
-      "company": "The Whip",
-      "position": "CEO/President",
-      "website": "https://thewh.ip",
-      "startDate": "2013-12-01",
-      "endDate": "",
-      "summary": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+      "company": "Capital One",
+      "position": "Data Science Intern (Capstone Project)",
+      "website": "https://en.wikipedia.org/wiki/Capital_One",
+      "startDate": "September 2019",
+      "endDate": "May 2020",
+      "summary": "Developed a soft attrition metric to improve existing attrition models by identifying churn behavior early. Engineered new features to better identify customer churn behavior, improving F1 measure by 16% to 0.9. Created data pipelines and functions for big data to assist training and deployment of prediction models.",
       "highlights": [
-        "Concealed nipper in embrodiery.",
-        "Dealt with Elastical Gomez on a daily basis."
+        "Technical stack: Python, Jupyter Notebook, AWS, Git",
+        "Packages: Scikit-leanrn, pandas, seaborn, matplotlib",
+        "Modeling techniques: Random Forest Classifier, Gradient Boosted Classifier, Support Vector Classifier, Logistic Regression",
+        "Skills: Classification models, Data Wrangling, Data Mining"
+      ]
+    },
+    {
+      "company": "University of Virginia",
+      "position": "Graduate Research Assistant",
+      "website": "https://www.virginia.edu",
+      "startDate": "November 2019",
+      "endDate": "May 2020",
+      "summary": "Research and analysis of brand marketing campaigns on consumption behavior with Geo-Location data of 10 million rows. Identified patterns in food consumption behavior during COVID-19 based on socio-economic status.",
+      "highlights": [
+        "Technical stack: Python, Jupyter Notebook, AWS, Rivanna (UVA's High-Performance Computing System)",
+        "Packages: pandas, geopandas, matplotlib, seaborn",
+        "Skills: Data Wrangling, Data Mining, Hypothesis Testing, Statistical Analysis & Inference"
+      ]
+    },
+    {
+      "company": "BDO India LLP",
+      "position": "Senior Assistant - Deal Advisory Services",
+      "website": "https://www.bdo.in/en-gb/services/advisory/due-diligence",
+      "startDate": "April 2017",
+      "endDate": "February 2019",
+      "summary": "Evaluated financial statements based on business models of target companies to suggest adjustments in earnings, working capital, net debt and cashflow as part of financial due diligence for clients. Identified key patterns in revenue/expenses and its driving factors over voluminous data spanning at least 3 financial years. Developed analysis frameworks to automate financial analysis processes, increasing efficiency by 90%.",
+      "highlights": [
+        "Technical stack: MS Excel, MS Powerpoint, S&P Capital IQ",
+        "Skills: Financial Analysis, Due Diligence, Pivot tables, Reports & Presentations, Client Engagement, Business Development"
+      ]
+    },
+    {
+      "company": "Jindal Pipes Limited (Offshore Drilling Division)",
+      "position": "Officer - Business Development",
+      "website": "http://www.jindal.com/jdil/offshore-drilling-companies.html",
+      "startDate": "June 2015",
+      "endDate": "August 2016",
+      "summary": "Analyzed market trends in Oil & Gas industry to extract actionable insights for business development strategies. Developed and tracked 5+ KPIs to report to upper management and to use them in client pitches.",
+      "highlights": [
+        "Technical stack: MS Excel, MS Powerpoint",
+        "Skills: Business Development, Market Research, Pivot tables, Client Presentations"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Steve's Meat Market",
-      "position": "Assistant",
-      "website": "",
-      "startDate": "1995-01-01",
-      "endDate": "1997-03-20",
-      "summary": "Ground up some sort of grasshopper mash for fishing.",
+      "organization": "Child Rights & You",
+      "position": "Public Action Group Volunteer",
+      "website": "https://www.cry.org",
+      "startDate": "July 2016",
+      "endDate": "March 2017",
+      "summary": "Volunteered with a public action group in Dwarka, New Delhi to assist with academics and extra curriculars of economically underpriveliged students.",
       "highlights": [
-        "Awarded a 'Helium Biscuit'"
+        "Organized a fund raiser worth $3k"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Virginia",
-      "area": "Digital Skillets",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "area": "Data Science",
+      "studyType": "Masters",
+      "startDate": "3 July 2019",
+      "endDate": "16 May 2020",
+      "gpa": "3.96",
       "courses": [
-        "DB1101 - Perpendicular Crosstalk",
-        "CS2011 - Introduction to Moisturization"
+        "DS6014 - Bayesian Machine Learning",
+        "SYS6018 - Data Mining",
+        "SYS6016 - Machine Learning",
+        "DS5001 - Text Analytics",
+        "DS6002 - Ethics of Big Data",
+        "STAT6021 - Linear Models for Data Science",
+        "SARC5400 - Data Visualization",
+        "CS5010 - Programming and Systems for Data Science",
+        "CS5012 - Foundations of Computer Science"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Warble Pioneer Award",
-      "date": "2001-11-01",
-      "awarder": "Levi Goulet",
-      "summary": "Have you seen my turtle?"
     }
   ],
   "publications": [
@@ -79,7 +120,7 @@
       "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
     }
   ],
-  "skills": [
+  "Projects": [
     {
       "name": "Audio Juggling",
       "level": "Master",
@@ -100,16 +141,37 @@
   ],
   "languages": [
     {
-      "language": "Nonsense",
+      "language": "English",
       "fluency": "Native speaker"
-    }
+    },
+    {
+         "language": "Hindi",
+         "fluency": "Native speaker"
+       }
   ],
   "interests": [
     {
-      "name": "The Information Superhighway",
+      "name": "Music",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Guitar",
+        "Piano",
+        "Progressive rock"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Basketball",
+        "MMA",
+        "Formula 1"
+      ]
+    },
+    {
+      "name": "Travel",
+      "keywords": [
+        "Visited 9 countries across 3 continents",
+        "Next destination I wish to visit: Norway",
+        "Next bucket list item: Skydiving"
       ]
     }
   ]
