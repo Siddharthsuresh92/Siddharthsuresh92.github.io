@@ -122,20 +122,33 @@
   ],
   "projects": [
     {
-      "name": "Audio Juggling",
-      "level": "Master",
+      "name": "Movie recommendation system using Topic Modeling on movie plots",
       "keywords": [
-        "Ointment",
-        "Voltor",
-        "Millipedes"
       ]
     },
     {
-      "name": "Bruschotti",
-      "level": "Satisfactory",
+      "name": "Bayesian analysis to evaluate tactical styles used in the English Premier League (Soccer)",
       "keywords": [
-        "Snow camp",
-        "Owl"
+      ]
+    },
+    {
+      "name": "Face recognition to identify emotion, gender and age group using convolutional neural networks",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "E-commerce product recommendation using Market Basket Analysis",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Developing a dashboard to analyze viral trends on Youtube using Tableau",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Detecting communities among characters of the Marvel Universe using Network Analysis",
+      "keywords": [
       ]
     }
   ],
@@ -169,7 +182,9 @@
     {
       "name": "Travel",
       "keywords": [
-        "Visited 9 countries across 3 continents | Next dream destination: Norway | Next bucket list item: Skydiving"
+        "Visited 9 countries across 3 continents",
+        "Next dream destination: Norway",
+        "Next bucket list item: Skydiving"
       ]
     }
   ]

@@ -9,11 +9,15 @@
         <div class="taxonomy">
           {% if i.name %}
             <h4 class="title">{{ i.name }}</h4>
+            {% if i.keywords %}
+              <ul class="courses">
+                {% for key in i.keywords %}
+                  <li>{{ key }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           {% endif %}
-          {% if i.keywords %}
-            <span class="keywords">{{ i.keywords | array_to_sentence_string }}</span>
-          {% endif %}
-        </div>
+          </div>
       {% endfor %}
     </div>
   </div>
