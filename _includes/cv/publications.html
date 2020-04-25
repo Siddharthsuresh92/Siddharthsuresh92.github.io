@@ -18,8 +18,8 @@
         {% if p.releaseDate %}
           <div class="date">{{ p.releaseDate }}</div>
         {% endif %}
-        {% if p.publisher %}
-          <h5 class="publisher">{{ p.publisher | prepend: 'Published by ' }}</h5>
+        {% if p.journal %}
+        <h5 class="publisher">{{ p.journal | prepend: 'Journal: ' }}</h5>
         {% endif %}
         {% if p.summary %}
           <div class="summary">{{ p.summary | markdownify }}</div>

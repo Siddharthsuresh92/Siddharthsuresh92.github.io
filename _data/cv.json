@@ -113,14 +113,14 @@
   ],
   "publications": [
     {
-      "name": "Radio Julius",
-      "publisher": "Tanyo Lubbock",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.rhy.es",
-      "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
+      "name": "Evaluating and Improving Attrition Models for the Retail Banking Industry",
+      "journal": "2020 Systems and Information Engineering Design Symposium (SIEDS)",
+      "releaseDate": "2020",
+      "website": "",
+      "summary": "This paper introduces and evaluates methods that help redefine the attrition response variable and proposes techniques that improve on the existing attrition models, specifically in the retail banking industry."
     }
   ],
-  "Projects": [
+  "projects": [
     {
       "name": "Audio Juggling",
       "level": "Master",
@@ -169,9 +169,7 @@
     {
       "name": "Travel",
       "keywords": [
-        "Visited 9 countries across 3 continents",
-        "Next destination I wish to visit: Norway",
-        "Next bucket list item: Skydiving"
+        "Visited 9 countries across 3 continents | Next dream destination: Norway | Next bucket list item: Skydiving"
       ]
     }
   ]
