@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Siddharth Suresh - Portfolio & Blog
+title: Siddharth Suresh
 email: ss3zg@virginia.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -70,11 +70,19 @@ paginate_path: /page:num/
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
 defaults:
 # _posts
 - scope:
     path: "_posts"
     type: posts
+  values:
+    layout: post
+    read_time: true
+# _recipes
+- scope:
+    path: "_projects"
+    type: recipes
   values:
     layout: post
     read_time: true
