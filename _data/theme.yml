@@ -32,3 +32,5 @@ google_fonts:
 navigation_pages:
   - about.markdown
   - cv.markdown
+  - posts.md
+  - projects.md

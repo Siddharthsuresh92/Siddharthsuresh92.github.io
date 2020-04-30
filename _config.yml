@@ -27,6 +27,11 @@ linkedin_username: siddharthsuresh92
 author:
     name: Siddharth Suresh
     picture: /assets/images/Sid.png
+
+# Liquid
+liquid:
+  error_mode: strict
+
 # Build settings
 # theme: jekyll-theme-basically-basic
 markdown: kramdown
@@ -50,6 +55,7 @@ feed:
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -70,6 +76,11 @@ paginate_path: /page:num/
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
 # _posts
@@ -79,10 +90,10 @@ defaults:
   values:
     layout: post
     read_time: true
-# _recipes
+# _projects
 - scope:
     path: "_projects"
-    type: recipes
+    type: projects
   values:
     layout: post
     read_time: true
