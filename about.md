@@ -1,12 +1,11 @@
 ---
 layout: about
-title: About
+title: 'About'
 permalink: /about/
 ---
 
 Hi! My name is Siddharth
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Sid.png){: .align-left}
 I have a masters degree in Data Science from the School of Data Science, University of Virginia. I am currently actively seeking roles in the field of Data Science.
 
 A bit about my background, I was born in India and relocated to the US in 2019. I have always been fascinated with Science and Math, prompting me to take up a Bachelor's degree in Mechanical Engineering followed by stints in the Oil and Gas industry and in Finance (as an advisory consultant). I also passed the level 1 of the CFA exam while I was working in Finance.
