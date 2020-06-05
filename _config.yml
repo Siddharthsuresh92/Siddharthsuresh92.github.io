@@ -36,6 +36,7 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 feed:
   path: atom.xml
 
