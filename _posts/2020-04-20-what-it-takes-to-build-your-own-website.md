@@ -1,6 +1,9 @@
 ---
 title:  "What it takes to build your own website!"
 last_modified_at: 2020-05-09T17:38:00-04:00
+image:
+    path: assets/images/design.jpg
+    thumbnail: assets/images/website.png
 ---
 So after a long time contemplating how to build an effective portfolio I finally decided on building my own website using github pages. It definitely wasn't easy sailing through this process. I had to scratch my head over a ton of stuff to figure out a way to build this website through a repository on github.
 

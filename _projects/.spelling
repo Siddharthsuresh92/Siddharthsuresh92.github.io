@@ -1,0 +1,20 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+Modeling
+movie
+dirichlet
+movies
+5
+40
+35
+25
+kaggle
+gensim
+1750
+12
+0.4477
+10
+github

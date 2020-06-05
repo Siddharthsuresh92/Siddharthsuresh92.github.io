@@ -9,7 +9,7 @@ last_modified_at: 2020-06-04T20:00:00-04:00
 ## Introduction
 Natural language processing is something I find fascinating and a technique that exists in that realm is called Topic Modeling. Topic modeling is an unsupervised learning approach that essentially tries to assign topics to documents.
 
-Before jumping in, let me provide a background on the terms that will be used in this post. Say we have a collection of texts in the form of movie reviews, the entire collection is called a 'corpus'. This corpus is futher made up of individual reviews or 'documents'. Each such document has one or more sentences which is a collection of words. Now that you know what 'corpus' and 'document' stand for, let's move on to Topic Modeling itself.
+Before jumping in, let me provide a background on the terms that will be used in this post. Say we have a collection of texts in the form of movie reviews, the entire collection is called a 'corpus'. This corpus is further made up of individual reviews or 'documents'. Each such document has one or more sentences which is a collection of words. Now that you know what 'corpus' and 'document' stand for, let's move on to Topic Modeling itself.
 
 ## Topic Modelling
 Topic modeling using Latent Dirichlet Allocation (LDA) works by assigning topics to each document. LDA uses the premise that each topic is a just a distribution of words and each document is a distribution of topics. For example, a corpus of news articles could have topics such as 'sports', 'politics', 'business' etc. and each of those topics could have a distribution of words. The topic 'sports' could have words like football, athlete, basketball in its distribution while the topic 'politics' could have words like prime minister, president, policy.
@@ -17,7 +17,7 @@ Topic modeling using Latent Dirichlet Allocation (LDA) works by assigning topics
 The reason this method is termed unsupervised is because there's no way to know for sure how many topics really exist. For say movie reviews, if the reviews were only for Sci-fi movies, essentially a single topic is enough, but if one chooses 5 topics the algorithm would try to find words for topics such that the corpus can be split into 5 different groups. You can think of K-means but for texts. Topic Modeling essentially tries to cluster texts together. It extracts latent and abstract meanings from the texts.
 
 Given that we already have words to process in the form of a corpus, the algorithm's job is to:
-1. find topics for each word in a document so that it can learn the distrbution of words for each topic
+1. find topics for each word in a document so that it can learn the distribution of words for each topic
 2. find the distribution of topics for each document given the words in that document.
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Topic_model/LDA.png){: .align-centre} 
@@ -38,9 +38,9 @@ Now that you have a background, let's dive into the data. For more information o
 The dataset was originally picked up from: [kaggle](https://www.kaggle.com/jrobischon/wikipedia-movie-plots) which has ~35k movies. I filtered and cleaned the dataset and ended up with ~22k movies. Each movie has a plot synopsis that served as the text, and the entire collection of these movie plots made up the corpus. I filtered the dataset so that it only contains movies from US, Canada, Britain, India (Bollywood) and Australia. Next up is the cleaning portion of the project.
 
 ## Preprocessing
-As I mentioned earlier, each topic in a topic model should learn a distribution of words for each topic. In order for the words to be representative of a certain topic, we need to filter the words so that each document only contains the most relevant words from which a topic can be infered.
+As I mentioned earlier, each topic in a topic model should learn a distribution of words for each topic. In order for the words to be representative of a certain topic, we need to filter the words so that each document only contains the most relevant words from which a topic can be inferred.
 
-For example, in the sentence: <q>Football is the most exciting of all sports and has the biggest fan following in the world</q>, the relevant words are `Football`, `exciting`, `sports`, `world`, and can easily be interpreted by a human to be a sentence related to sports. For a machine to understand this, we need to strip the sentence of unneccessary words (or Stopwords) such as `is`, `the`, `of`, `has` etc.
+For example, in the sentence: <q>Football is the most exciting of all sports and has the biggest fan following in the world</q>, the relevant words are `Football`, `exciting`, `sports`, `world`, and can easily be interpreted by a human to be a sentence related to sports. For a machine to understand this, we need to strip the sentence of unnecessary words (or Stopwords) such as `is`, `the`, `of`, `has` etc.
 
 This preprocessing can be done in a lot of different ways, I used Gensim, nltk and spacy to preprocess the corpus.
 
@@ -74,7 +74,7 @@ This model was chosen based on examining the coherence scores, pyLDAvis visualiz
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Topic_model/pyldavis.png){: .align-centre}
 
 ## Recommendation system
-I created the recommendation system from scratch by defining my own functions. For each movie plot in the corpus, I had a topic distribution using the generated topic model. By using the Jensen-Shanon divergence, I computed the similarity between each of the movie plots and for any given movie the recommendation system would recommend movies most similar to it based on the movie plot texts.
+I created the recommendation system from scratch by defining my own functions. For each movie plot in the corpus, I had a topic distribution using the generated topic model. By using the Jensen-Shannon divergence, I computed the similarity between each of the movie plots and for any given movie the recommendation system would recommend movies most similar to it based on the movie plot texts.
 
 #### Code for recommendation system
 <script src="https://gist.github.com/Siddharthsuresh92/a4c399d6ce5e8ae5770ffeac4be2f71b.js"></script>
