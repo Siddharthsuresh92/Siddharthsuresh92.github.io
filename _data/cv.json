@@ -123,11 +123,13 @@
   "projects": [
     {
       "name": "Movie recommendation system using Topic Modeling on movie plots",
+      "website": "https://siddharthsuresh92.github.io/projects/2020-04-30-topic-modeling/",
       "keywords": [
       ]
     },
     {
       "name": "Bayesian analysis to evaluate tactical styles used in the English Premier League (Soccer)",
+      "website": "https://siddharthsuresh92.github.io/projects/2020-04-30-bayesian/",
       "keywords": [
       ]
     },
