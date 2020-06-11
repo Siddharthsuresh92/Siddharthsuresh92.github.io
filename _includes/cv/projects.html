@@ -5,19 +5,16 @@
     </header>
 
     <div class="entry-content">
-      {% for s in cv.projects %}
-          {% if s.name %}
-            <h4 class="title">
-              {% if s.website %}
-                <a href="{{ s.website }}">{{ s.name }}</a>
-              {% else %}
-                {{ s.name }}
-              {% endif %}
-            </h4>
-          {% endif %}
-          {% if s.keywords %}
-            <div class="keywords">{{ s.keywords | array_to_sentence_string }}</div>
-          {% endif %}
+      {% for p in cv.projects %}
+        {% if p.name %}
+          <h4 class="title">
+            {% if p.website %}
+              <a href="{{ p.website }}">{{ p.name }}</a>
+            {% else %}
+              {{ p.name }}
+            {% endif %}
+          </h4>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
