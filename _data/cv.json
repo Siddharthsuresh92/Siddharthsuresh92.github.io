@@ -116,16 +116,17 @@
       "name": "Evaluating and Improving Attrition Models for the Retail Banking Industry",
       "journal": "2020 Systems and Information Engineering Design Symposium (SIEDS)",
       "releaseDate": "2020",
-      "website": "",
-      "summary": "This paper introduces and evaluates methods that help redefine the attrition response variable and proposes techniques that improve on the existing attrition models, specifically in the retail banking industry."
+      "website": "https://edas.info/showManuscript.php?m=1570635147&ext=pdf&type=final",
+      "summary": "This paper introduces and evaluates methods that help redefine the attrition response variable and proposes techniques that improve on the existing attrition models, specifically for the retail banking industry."
     }
   ],
   "projects": [
     {
       "name": "Movie recommendation system using Topic Modeling on movie plots",
       "website": "https://siddharthsuresh92.github.io/projects/2020-04-30-topic-modeling/",
-      "keywords": [
+      "keywords": ["Topic Modeling", "NLP", "Spacy", "Gensim"
       ]
+      
     },
     {
       "name": "Bayesian analysis to evaluate tactical styles used in the English Premier League (Soccer)",
