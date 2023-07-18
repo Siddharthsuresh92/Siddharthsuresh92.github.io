@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: Siddharth Suresh
-email: ss3zg@virginia.edu
+email: siddharthsuresh3092@gmail.com
 description: "Masters in Data Science | University of Virginia"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -23,7 +23,7 @@ github_username:  Siddharthsuresh92
 linkedin_username: siddharthsuresh92
 author:
     name: Siddharth Suresh
-    picture: /assets/images/Sid.png
+    picture: /assets/images/SidSuresh.jpg
 
 # Liquid
 liquid:
