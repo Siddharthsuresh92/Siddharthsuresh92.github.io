@@ -3,7 +3,6 @@ title:  "Movie recommendation system using Topic Modeling"
 image: 
     path: /assets/images/Topic_model/Topic-Model.png
     thumbnail: /assets/images/Topic_model/Topic_model_thumb.png
-last_modified_at: 2020-06-04T20:00:00-04:00
 ---
 
 ## Introduction
